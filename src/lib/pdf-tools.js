@@ -11,9 +11,17 @@ export const getPdfRead = (info) => {
 
   const docDefinition = {
     content: [
-      "First paragraph",
-      "Another paragraph, this time a little bit longer to make sure, this line will be divided into at least two lines",
+      {
+        text: "I was a salesman 6 months ago, and now I am a professional web developer",
+        style: "header",
+        alignment: "center",
+      },
     ],
+    styles: {
+      header: {
+        fontSize: 18,
+      },
+    },
   };
 
   const pdfReadableStream = printer.createPdfKitDocument(docDefinition);

@@ -2,15 +2,7 @@ import express from "express";
 import { pipeline } from "stream";
 import { getPdfRead } from "../../lib/pdf-tools.js";
 
-// const filesRouter = express.Router();
-
-// const fonts = {
-//   Roboto: {
-//     normal: "Helvetica",
-//   },
-// };
-
-// const printer = new PdfPrinter(fonts);
+const filesRouter = express.Router();
 
 filesRouter.get("/pdf", (req, res, next) => {
   res.setHeader("Content-Disposition", "attachment; filename=myFile.pdf");
