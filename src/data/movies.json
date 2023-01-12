@@ -1,0 +1,52 @@
+[
+  {
+    "title": "IT",
+    "grade": 7.92,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 1",
+    "grade": 3.92,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 2",
+    "grade": 1.9,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 3",
+    "grade": 8.4,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 4",
+    "grade": 10,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 5",
+    "grade": 5.32,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 6",
+    "grade": 3.52,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 7",
+    "grade": 6.62,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 8",
+    "grade": 8.2,
+    "category": "horror"
+  },
+  {
+    "title": "Haloween 9",
+    "grade": 9,
+    "category": "horror"
+  }
+]
