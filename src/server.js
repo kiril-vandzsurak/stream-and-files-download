@@ -5,6 +5,7 @@ import emailRouter from "./api/email/index.js";
 
 const server = express();
 const port = 3001;
+server.use(express.json());
 
 server.use("/files", filesRouter);
 server.use("/email", emailRouter);
