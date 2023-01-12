@@ -1,11 +1,13 @@
 import express from "express";
 import listEndpoints from "express-list-endpoints";
 import filesRouter from "./api/files/index.js";
+import emailRouter from "./api/email/index.js";
 
 const server = express();
 const port = 3001;
 
 server.use("/files", filesRouter);
+server.use("/email", emailRouter);
 
 server.listen(port, () => {
   console.table(listEndpoints(server));

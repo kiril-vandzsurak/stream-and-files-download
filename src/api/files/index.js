@@ -3,7 +3,6 @@ import { pipeline } from "stream";
 import { getPdfRead } from "../../lib/pdf-tools.js";
 import fs from "fs";
 import { join } from "path";
-import { createGzip } from "zlib";
 import json2csv from "json2csv";
 
 const filesRouter = express.Router();
